@@ -28,14 +28,16 @@ const Features = () => {
           The Future is Now and You Just Need To Realize It. Step into Future
           Today & Make it Happen.
         </h1>
-        <p>Request Early Access to Get Started</p>
+        <a href="#">
+          <p>Let's Get Started</p>
+        </a>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (
           <Feature
             title={item.title}
             text={item.text}
-            key={item.title + index}
+            key={index}
           />
         ))}
       </div>
