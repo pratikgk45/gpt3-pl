@@ -1,1 +1,1 @@
-# GPT-3 Landing Page
+# GPT-3 Sample Landing Page
